@@ -1,0 +1,28 @@
+# Gradle 构建输出（可重新生成，不入库）
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild
+.cxx
+
+# 本地配置：包含本机 SDK 路径 / 签名密码，绝不能上传
+local.properties
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# IDE（Android Studio 的缓存与 workspace 因人而异）
+.idea/
+*.iml
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 体积大的整包备份（约 165MB，留在本地即可）
+PolarBell.zip
+
+# 早前的协议草稿（内容已整理进 README，且含本机路径）
+POLARBELL_UPLOAD_NOTES.md
